@@ -51,7 +51,7 @@ const StoriePageScreen: React.FC = () => {
             <p className="text-gray-400">Castonegro</p>
             <p className="text-white text-2xl font-bold">Werewolf</p>
             <p className="text-white">Players 5 - 18</p>
-            <p className="text-white">Duration 30'</p>
+            <p className="text-white">Duration 30</p>
           </div>
           <Button text="Start" style={{ backgroundColor: '#a239CA', padding: '1rem 2rem', borderRadius: '0.5rem' }} onClick={handleReady} />
         </div>

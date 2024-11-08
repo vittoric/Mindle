@@ -24,7 +24,8 @@ const NarratorVillageWakeUpScreen: React.FC = () => {
           imageSrc="/images/villagewakesup.png"
           description={
             <>
-              Day breaks, and the village gathers. It's time to vote on who you suspect is the werewolf among you. The player with the most votes will face the village's judgment. Choose wisely — your survival depends on it.
+              Day breaks, and the village gathers. It&apos;s time to vote on who you suspect is the werewolf among you. The player with the most votes will face the village&apos;s judgment. Choose wisely — your survival depends on it.
+
             </>
           }
         />

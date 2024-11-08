@@ -1,6 +1,5 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
 import { useNavigate } from 'react-router-dom';
 import Button from '@/../../components/Button';
 
