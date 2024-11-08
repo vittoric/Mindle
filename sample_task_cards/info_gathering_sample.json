@@ -1,0 +1,56 @@
+{
+    "tape_name": "User Age Collection via WebSocket",
+    "description": "Collect ages from users via WebSocket and calculate the average age.",
+    "version": "1.0.0",
+    "metadata": {
+        "author": "Your Name",
+        "created_at": "2024-10-11T12:00:00Z",
+        "last_updated": "2024-10-11T12:00:00Z"
+    },
+    "tasks": [
+        {
+            "task_id": "1",
+            "description": "Ask all users for their age via WebSocket",
+            "dependencies": [],
+            "errors": [
+                {
+                    "error_code": "E001",
+                    "error_message": "Error while asking users for age"
+                }
+            ],
+            "timeout": 300,
+            "location": "Mobile App",
+            "assigned_users": [],
+            "status": "pending",
+            "complexity": "simple",
+            "dynamic": true,
+            "priority": 1,
+            "response_required": true
+        },
+        {
+            "task_id": "2",
+            "description": "Receive ages from users via WebSocket and calculate average",
+            "dependencies": ["1"],
+            "errors": [
+                {
+                    "error_code": "E002",
+                    "error_message": "Error while receiving ages or calculating average"
+                }
+            ],
+            "timeout": 300,
+            "location": "Server",
+            "assigned_users": [],
+            "status": "pending",
+            "complexity": "medium",
+            "dynamic": false,
+            "priority": 2,
+            "response_required": false
+        }
+    ],
+    "styles": {
+        "standard": {
+            "max_concurrent_users": 5,
+            "task_order": "sequential"
+        }
+    }
+}

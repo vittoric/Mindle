@@ -1,0 +1,8 @@
+sqlmodel
+pydantic
+python-jose[cryptography]
+fastapi[standard]
+pydantic-settings
+psycopg2-binary
+redis
+uvicorn
